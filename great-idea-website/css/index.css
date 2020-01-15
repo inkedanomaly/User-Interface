@@ -64,3 +64,56 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+}
+
+html{
+	font-size:62.5%;
+}
+
+body{
+	line-height:2;
+	font-size:1.5rem;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+title {
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing:2.5px;
+	padding:5% 0;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing:2.5px;
+	padding:5% 0;
+	font-size:6rem;
+	font-weight: bold;
+}
+
+h2, h3 {
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing:2.5px;
+	padding:5% 0;
+}
+
+.links{
+	width:80%;
+	display:inline-block;
+	text-align: center;
+
+  }
+
+  nav a{
+	color:rgb(45, 9, 129);
+	text-decoration:none;
+	letter-spacing:3px;
+	padding: 10px
+  }
+  nav a:hover{
+	color:#AFEEEE;
