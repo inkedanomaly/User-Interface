@@ -130,4 +130,44 @@ h1{
 	margin: 0 3%;
 }
 
+#top {
+	padding: 3% 0;
+	margin: 0 10%;
+	border-top: 2px solid black;
 
+}
+
+#top .container div{
+	text-align:left;
+	width: 30%;
+	display:inline-block;
+	margin: 0 8%;
+	padding: 3% 0;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#bottom {
+	padding: 3% 0;
+	margin: 0 10%;
+	border-bottom: 2px solid black;
+}
+
+#bottom .container2 div{
+	text-align:left;
+	width: 23%;
+	display:inline-block;
+	margin: 0 5%;
+	padding: 3% 0;
+}
+#contact{
+	margin: 0 10%;
+	padding: 3% 0;
+}
+#Copyright {
+	text-align: center;
+}
