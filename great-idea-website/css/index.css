@@ -82,38 +82,66 @@ body{
 	font-family: 'Nunito Sans', sans-serif;
 }
 
-title {
+title{
 	font-family: 'Fjalla One', sans-serif;
 	letter-spacing:2.5px;
 	padding:5% 0;
 }
 
-h1 {
+h1{
 	font-family: 'Fjalla One', sans-serif;
-	letter-spacing:2.5px;
-	padding:5% 0;
+	padding:0 15%;
 	font-size:6rem;
 	font-weight: bold;
+	display: inline-block;
+	white-space: pre-line;
+
 }
 
-h2, h3 {
+h2, h3{
 	font-family: 'Fjalla One', sans-serif;
 	letter-spacing:2.5px;
 	padding:5% 0;
 }
 
-.links{
+.links {
 	width:80%;
 	display:inline-block;
 	text-align: center;
 
+}
+
+nav a{
+	color: slategray;
+	text-decoration: none;
+	margin: 0 3%;
+	display: inline-block;
   }
 
-  nav a{
-	color:rgb(45, 9, 129);
-	text-decoration:none;
-	letter-spacing:3px;
-	padding: 10px
-  }
-  nav a:hover{
+nav a:hover{
 	color:#AFEEEE;
+}
+
+button{
+	display: inline-block;
+}
+
+.header-img {
+	display:inline-block;
+	width: 40%;
+}
+
+#features div{
+	text-align: center;
+	width: 30%;
+	display: inline-block;
+	margin: 0 3%;
+}
+#features h2 {
+	text-align: center;
+	padding: 3% 0;
+}
+
+#features div p{
+	text-align:justify;
+}
