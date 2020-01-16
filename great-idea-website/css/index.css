@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+}
+
+
+title{
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing:2.5px;
+	padding:5% 0;
+}
+
+.links {
+	width:100%;
+	display:inline-block;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+nav a{
+	color: slategray;
+	text-decoration: none;
+	margin: 0 3%;
+	display: inline-block;
+	
+  }
+
+nav a:hover{
+	color:#AFEEEE;
+}
+#h1-img {
+	width:100%;
+	padding: 3% 0;
+	margin: 0 10%;
+}
+h1{
+	font-size:5rem;
+	white-space: pre-line;
+	letter-spacing: 2px;
+	text-align: center;
+	
+	
+}
+
+#h1-img h2{
+	border: solid;
+	width: 150px;
+	height:66px;
+	text-align: center;
+	padding-top: 25px;
+	margin: 0 36%;
+	
+}
+
+
+#h1-img .headcontainer div{
+	width: 36%;
+	display: inline-block;
+	padding: 2% 0;
+	margin: 0 3%;
+}
+
+#top {
+	padding: 3% 0;
+	margin: 0 10%;
+	border-top: 2px solid black;
+
+}
+
+#top .container div{
+	text-align:left;
+	width: 30%;
+	display:inline-block;
+	margin: 0 8%;
+	padding: 3% 0;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#bottom {
+	padding: 3% 0;
+	margin: 0 10%;
+	border-bottom: 2px solid black;
+}
+
+#bottom .container2 div{
+	text-align:left;
+	width: 23%;
+	display:inline-block;
+	margin: 0 5%;
+	padding: 3% 0;
+}
+#contact{
+	margin: 0 10%;
+	padding: 3% 0;
+}
+#Copyright {
+	text-align: center;
+}
